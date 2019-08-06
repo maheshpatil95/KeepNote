@@ -18,7 +18,7 @@ db.connect(dbURI, { useNewUrlParser: true, useFindAndModify: false })
   .then(() => console.log("Connected to DB"))
   .then(() => {
     app.listen(port, () =>{
-    //  open('http://localhost:' + port + '/');
+      open('http://localhost:' + port + '/');
       console.log(`Server is running on http://localhost:${port}`)
     }
      
