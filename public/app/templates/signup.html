@@ -1,0 +1,31 @@
+<div class="login-main">
+        <div class="appname-text">
+            KEEPNOTE
+        </div>
+        <div class="container">
+                <div class="row">
+                    <div class="form_bg">
+                        <form>
+                             <h3 class="text-center">Create your account </h3>
+                            <br/>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="username" placeholder="Enter username" required ng-model="createUserObj.username">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" id="pwd" placeholder="Enter password" required ng-model="createUserObj.password"> 
+                            </div>
+                            <div class="align-center">
+                                <button type="submit" class="btn btn-primary" id="signup" ng-click="signup()">Submit</button>
+                            </div>
+                            <hr>
+                            <div class="align-center">
+                                Already have acoount? <a ui-sref="login">Sign In</a>  
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        
+        
+        
+        </div>
